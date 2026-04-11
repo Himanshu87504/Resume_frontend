@@ -60,7 +60,7 @@ const Dashboard = () => {
             <div className={styles.DashboardLeft}>
                 <div className={styles.DashboardHeader}>
                     <div className={styles.DashboardHeaderTitle}>Smart Resume Screening</div>
-
+                    <div>{userInfo?._id}</div>
                     <div className={styles.DashboardLargeTitle}>Resume Match Score</div>
                 </div>
 
